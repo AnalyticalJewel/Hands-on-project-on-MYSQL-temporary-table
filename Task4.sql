@@ -11,6 +11,6 @@ Task by: Jewel Alam
 CREATE TEMPORARY TABLE dates AS
 SELECT 
     NOW() AS curr_dateandtime,
-    DATE_SUB(NOW(), INTERVAL 2 MONTH) AS a_month_earlier,
-    DATE_ADD(NOW(), INTERVAL 2 YEAR) AS a_year_later;
+    DATE_SUB(NOW(), INTERVAL 2 MONTH) AS 2_month_earlier,
+    DATE_ADD(NOW(), INTERVAL 2 YEAR) AS 2_year_later;
     select * from temp_date;
